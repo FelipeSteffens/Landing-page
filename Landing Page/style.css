@@ -1,0 +1,67 @@
+
+html{
+    height: 100%;
+}
+
+header{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+#logo{
+
+    box-shadow: 1px 1px 1px black;
+    border-color: rgb(126, 126, 126);
+    width: 135px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    color: white;
+    background-color: #ffebbf;
+    background-image: url(image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+button{
+    width: 180px;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #ef9338;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+
+    margin: 0;
+    
+    
+
+}
+#subtitulo{
+
+  margin: 40px;
+
+}
